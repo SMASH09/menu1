@@ -192,7 +192,7 @@ const T = (e) => {
     "Modal"
   ].forEach((t) => {
     let l = document.createElement("div");
-    l.id = `OneFoodMenu${t}`, window.__OneFoodMenu__.nodes["menu" + t] = l, t == "Credits" && (l.innerHTML = '<div class="p-4 text-center">Created with<strong>Cafe Papalo</strong> app</div>'), e.appendChild(l);
+    l.id = `OneFoodMenu${t}`, window.__OneFoodMenu__.nodes["menu" + t] = l, t == "Credits" && (l.innerHTML = '<div class="p-4 text-center"></div>'), e.appendChild(l);
   });
 };
 export {
