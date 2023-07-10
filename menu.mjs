@@ -27,7 +27,7 @@ const m = ({ products: e, categories: d }) => d.map((t) => {
                                     </div>`, i += '<div class="p-2.5 md:p-4 flex flex-col flex-grow overflow-hidden">', i += `<div class="font-bold mb-2">${n.name}</div>`, i += '<div class="flex gap-2 overflow-x-auto overflow-hidden max-w-full pb-2">', i += c(n.allergens), n.tags && (i += g(n.tags)), i += "</div>", i += `<div class="mt-auto opacity-60 leading-tight line-clamp-2 w-full hidden text-base">${n.description}</div>`, i += '<div class="pt-4">', n.options && (i += f(n.options)), i += "</div>", i += `   </div>
                         </div>`, i;
   }).join(""), l += `<div class="1fm-category my-6" data-category>
-                        <h2 class="1fm-category-title text-2xl font-bold">${t.name}</h2> 
+                        <h1 class="1fm-category-title text-2xl font-bold">${t.name}</h2> 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2"> ${o} </div>
                     </div>`, l;
 }).join(""), p = ({ products: e, categories: d, priceSymbol: t }) => d.map((l) => {
